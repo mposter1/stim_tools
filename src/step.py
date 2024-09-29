@@ -1,4 +1,4 @@
-from surf.pqubit import pqubit
+from surf.src.pqubit import pqubit
 
 class surf_step:
     """

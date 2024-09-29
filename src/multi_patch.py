@@ -1,9 +1,9 @@
 import warnings
 
-from surf.patch import surf_patch
-from surf.qubit_topology import qubit_topology
-from surf.pqubit import pqubit
-from surf.step import surf_step
+from surf.src.patch import surf_patch
+from surf.src.qubit_topology import qubit_topology
+from surf.src.pqubit import pqubit
+from surf.src.step import surf_step
 class multi_surf_patch(qubit_topology):
 
     def __init__(self, patches: list[surf_patch], uniform_error_rate: float, experiment_basis: str, merge_neighbors: bool = True):
@@ -92,7 +92,6 @@ class multi_surf_patch(qubit_topology):
         from matplotlib import pyplot as plt
         import matplotlib.patches as mpatches
         import numpy as np
-        from matplotlib.legend_handler import HandlerTuple
         from math import atan2
 
         drawn_colors = []
@@ -621,7 +620,6 @@ class multi_surf_patch(qubit_topology):
         """
         import matplotlib.pyplot as plt
         import numpy as np
-        import matplotlib.patches as mpatches
 
         cx_count_colors = ['orange','magenta','cyan','lime',]
 

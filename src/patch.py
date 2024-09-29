@@ -1,7 +1,7 @@
 import warnings
 
-from surf.pqubit import pqubit
-from surf.qubit_topology import qubit_topology
+from surf.src.pqubit import pqubit
+from surf.src.qubit_topology import qubit_topology
 from math import ceil
 
 

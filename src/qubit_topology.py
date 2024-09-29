@@ -1,4 +1,4 @@
-from surf.pqubit import pqubit
+from surf.src.pqubit import pqubit
 class qubit_topology:
 
     x_stab_order: list[list[int]|int] = [
